@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sp_deform"
+version = "1.0"
+readme = "README.md"
+authors = [
+    {name = "Innokentii Goncharov", email = "rtif91@gmail.com"},
+]
+dependencies = [
+    "plotly",
+    "scipy",
+    "tabulate",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "License :: Free for non-commercial use",
+]
+
+[project.urls]
+repository = "https://github.com/Keniamin/sp_deform"
+
+[tool.setuptools]
+packages = ["sp_deform"]
